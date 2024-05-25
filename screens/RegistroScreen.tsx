@@ -46,7 +46,7 @@ export default function RegistroScreen() {
        placeholder='Ingrese correo'
        style={styles.input}
        placeholderTextColor={'#ffe'}
-       keyboardType='url'
+       keyboardType='email-address'
        onChangeText={ (texto)=> setCorreo(texto) }
        value={correo}
       />
